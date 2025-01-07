@@ -44,6 +44,8 @@ struct BookListView: View {
         }
         else {
           ContentUnavailableView("Enter your first book!!", systemImage: "book")
+            
+            
         }
       }
       .listStyle(.plain)
@@ -60,6 +62,20 @@ struct BookListView: View {
         NewBookView()
       }
     }
+    .onAppear {
+          let op:OperatorsUse = OperatorsUse()
+          op.useMap()
+          op.useScan()
+          op.useFilter()
+          op.useFirst()
+          op.useMerge()
+          op.useCombineLatest()
+          op.useZip()
+          op.useDebounce()
+          //op.useThrottle()
+          op.useRemoveDuplicates()
+          //op.useCatch()
+      }
   }
 }
 
