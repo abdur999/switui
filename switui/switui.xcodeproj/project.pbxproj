@@ -23,6 +23,7 @@
 		A475F8052D1DC52700A7739F /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8042D1DC52700A7739F /* EditBookView.swift */; };
 		A475F8072D1DC56000A7739F /* NewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8062D1DC56000A7739F /* NewBookView.swift */; };
 		A4A468422D1CFA5900AFC0F9 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A468412D1CFA5900AFC0F9 /* Book.swift */; };
+		A4E4BD3B2D32789600F84955 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4BD3A2D32789600F84955 /* GridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		A475F8042D1DC52700A7739F /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
 		A475F8062D1DC56000A7739F /* NewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookView.swift; sourceTree = "<group>"; };
 		A4A468412D1CFA5900AFC0F9 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		A4E4BD3A2D32789600F84955 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		A41B01982D171CD60062C097 /* switui */ = {
 			isa = PBXGroup;
 			children = (
+				A4E4BD392D32787B00F84955 /* swiftui */,
 				A427DB9D2D2CEC5B00DF8EB0 /* combine */,
 				A4A468402D1CFA3600AFC0F9 /* SwiftData */,
 				A41B01992D171CD60062C097 /* swituiApp.swift */,
@@ -168,6 +171,14 @@
 				A475F8002D1DC49900A7739F /* StringExt.swift */,
 			);
 			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		A4E4BD392D32787B00F84955 /* swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				A4E4BD3A2D32789600F84955 /* GridView.swift */,
+			);
+			path = swiftui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +321,7 @@
 				A475F8052D1DC52700A7739F /* EditBookView.swift in Sources */,
 				A41B01C62D171E9C0062C097 /* Post.swift in Sources */,
 				A427DB9F2D2CEC8000DF8EB0 /* OperatorsUse.swift in Sources */,
+				A4E4BD3B2D32789600F84955 /* GridView.swift in Sources */,
 				A475F8072D1DC56000A7739F /* NewBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

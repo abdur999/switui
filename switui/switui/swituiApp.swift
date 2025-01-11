@@ -12,8 +12,9 @@ struct swituiApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            BookListView()
-                .modelContainer(for:[Book.self])
+//            BookListView()
+//                .modelContainer(for:[Book.self])
+            GridView()
         }
     }
 }
