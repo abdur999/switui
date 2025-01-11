@@ -10,9 +10,10 @@ import SwiftUI
 struct GridView: View {
     let items = Array(1...20) //Example Data
     let columns = [
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-    ]   //Grid Column should be flexible to size according to its content
+        GridItem(.fixed(100)),
+        GridItem(.fixed(100)),
+        GridItem(.fixed(100))
+    ]   //Grid Column should be Fixed column size
     var body: some View {
         ScrollView {  //Makes the grid scrollable
             LazyVGrid(columns: columns, spacing: 20) { //A vertical Grid Layout
