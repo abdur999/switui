@@ -24,6 +24,7 @@
 		A475F8072D1DC56000A7739F /* NewBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8062D1DC56000A7739F /* NewBookView.swift */; };
 		A4A468422D1CFA5900AFC0F9 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A468412D1CFA5900AFC0F9 /* Book.swift */; };
 		A4E4BD3B2D32789600F84955 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4BD3A2D32789600F84955 /* GridView.swift */; };
+		A4E4BD3E2D327CAC00F84955 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4BD3D2D327CAC00F84955 /* BankAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		A475F8062D1DC56000A7739F /* NewBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookView.swift; sourceTree = "<group>"; };
 		A4A468412D1CFA5900AFC0F9 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		A4E4BD3A2D32789600F84955 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		A4E4BD3D2D327CAC00F84955 /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		A41B01982D171CD60062C097 /* switui */ = {
 			isa = PBXGroup;
 			children = (
+				A4E4BD3C2D327C5E00F84955 /* Actor */,
 				A4E4BD392D32787B00F84955 /* swiftui */,
 				A427DB9D2D2CEC5B00DF8EB0 /* combine */,
 				A4A468402D1CFA3600AFC0F9 /* SwiftData */,
@@ -179,6 +182,14 @@
 				A4E4BD3A2D32789600F84955 /* GridView.swift */,
 			);
 			path = swiftui;
+			sourceTree = "<group>";
+		};
+		A4E4BD3C2D327C5E00F84955 /* Actor */ = {
+			isa = PBXGroup;
+			children = (
+				A4E4BD3D2D327CAC00F84955 /* BankAccount.swift */,
+			);
+			path = Actor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +328,7 @@
 				A41B01C82D171EC50062C097 /* APIService.swift in Sources */,
 				A475F8032D1DC4DF00A7739F /* BookListView.swift in Sources */,
 				A41B019C2D171CD60062C097 /* ContentView.swift in Sources */,
+				A4E4BD3E2D327CAC00F84955 /* BankAccount.swift in Sources */,
 				A41B019A2D171CD60062C097 /* swituiApp.swift in Sources */,
 				A475F8052D1DC52700A7739F /* EditBookView.swift in Sources */,
 				A41B01C62D171E9C0062C097 /* Post.swift in Sources */,

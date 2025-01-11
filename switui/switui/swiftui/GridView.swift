@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct GridView: View {
+    var bank = BankAccount()
     let items = Array(1...20) //Example Data
     let columns = [
         GridItem(.fixed(100)),
         GridItem(.fixed(100)),
         GridItem(.fixed(100))
     ]   //Grid Column should be Fixed column size
+    init(bank: BankAccount = BankAccount()) {
+        self.bank = bank
+    }
     var body: some View {
         ScrollView {  //Makes the grid scrollable
             LazyVGrid(columns: columns, spacing: 20) { //A vertical Grid Layout
