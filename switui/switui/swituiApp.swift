@@ -42,8 +42,24 @@ struct swituiApp: App {
             print("Account number after masking \(account2.getMaskedAccountNumber())")
         }
         
-        MainFactory().callFactory()
+        Factory()
         
+        AbstarctFactory()
+        
+        
+    }
+    func Factory() {
+        MainFactory().callFactory()
+    }
+    func AbstarctFactory() {
+        let client = Client(clientName: "Jim", orderItem: .MargharitaPizza)
+        client.startOrder()
+        let client2 = Client(clientName: "Deepa", orderItem: .LemonSoda)
+        client2.startOrder()
+        let client3 = Client(clientName: "Selina", orderItem: .CheeseBurger)
+        client3.startOrder()
+        let client4 = Client(clientName: "rajesh", orderItem: .FrenchFries)
+        client4.startOrder()
     }
     var body: some Scene {
         WindowGroup {
