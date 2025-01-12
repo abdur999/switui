@@ -50,6 +50,11 @@ struct swituiApp: App {
         
         ocp()
         
+        lsp()
+        
+        
+        di()
+        
     }
     func Factory() {
         MainFactory().callFactory()
@@ -72,7 +77,7 @@ struct swituiApp: App {
         let user = Usr(id: 1, name: "John Doe", email: "Johndoe@gmail.com")
         userManager.saveUser(user)
     }
-    //Open/Closed Principle
+    // Open/Closed Principle
     func ocp() {
         let creditCardPayment = CreditCardPayemnt()
         let payPalPayment = PayPalPayemnt()
@@ -82,6 +87,25 @@ struct swituiApp: App {
         
         let payPalProcessor = PaymentMethodProcessor(paymentMethod: payPalPayment)
         payPalProcessor.processPayemnt(amount: 200.0)
+    }
+    // Liskov Substitution Principle
+    func lsp(){
+        let rectanglex = RectangleX(width: 5, height: 4)
+        AreaCalculator().printArea(of: rectanglex)
+        
+        let squarex = SquareX(side: 4)
+        AreaCalculator().printArea(of: squarex)
+    }
+    // Dependency Inversion Principle
+    func di() {
+        let consoleLogger = ConsoleLoggerx()
+        let appWithConsoleLogger = Applicationx(logger: consoleLogger)
+        appWithConsoleLogger.performTask()
+        
+        let fileLogger = FileLoggerx()
+        let appWithFileogger = Applicationx(logger: fileLogger)
+        appWithFileogger.performTask()
+        
     }
     var body: some Scene {
         WindowGroup {
