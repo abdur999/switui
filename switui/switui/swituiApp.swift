@@ -10,6 +10,11 @@ import SwiftUI
 @main
 struct swituiApp: App {
     init() {
+        let exe = ExistentialType()
+        let animal = exe.getAnimal(type: .anonymus)
+        let sound = animal.makeSound()
+        print(sound)
+        
         let  account1 = BankAccount()
         let  account2 = BankAccount()
         Task{

@@ -27,6 +27,14 @@ import Foundation
  Consistent return type
  Default implementation in protocols
  */
+
+//Characterstics Of OPaque
+/*
+ Abstraction with type safety
+ Must always return the same concrete type
+ Optimized (No dynamic dispatch)
+ Concrete type is known by the compiler but hidden from caller
+ */
 protocol Shape {
     func draw() -> String
 }
