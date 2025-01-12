@@ -46,6 +46,7 @@ struct swituiApp: App {
         
         AbstarctFactory()
         
+        srp()
         
     }
     func Factory() {
@@ -60,6 +61,14 @@ struct swituiApp: App {
         client3.startOrder()
         let client4 = Client(clientName: "rajesh", orderItem: .FrenchFries)
         client4.startOrder()
+    }
+    // Single Responsibility Principle
+    func srp() {
+        let emaiService = EmailService()
+        let userManager = UserManagerAccurate(emailService: emaiService)
+        
+        let user = Usr(id: 1, name: "John Doe", email: "Johndoe@gmail.com")
+        userManager.saveUser(user)
     }
     var body: some Scene {
         WindowGroup {
