@@ -52,8 +52,8 @@ struct Square: Shape {
 }
 // This is not working as the function need to return only a single specific type
 // We must have to return either Circle / Square when we use opaque type we have to return either Circle or Square from the body.
-func craeteShape(isCircle:Bool) -> some Shape {
-    if isCircle {
+func craeteShapeCircle(isLarge:Bool) -> some Shape {
+    if !isLarge {
         return Circle(radius: 10)
     } else {
         return Circle(radius: 20)

@@ -10,10 +10,23 @@ import SwiftUI
 @main
 struct swituiApp: App {
     init() {
+        // Protocol ExistentialType
         let exe = ExistentialType()
         let animal = exe.getAnimal(type: .anonymus)
         let sound = animal.makeSound()
         print(sound)
+        
+        //Protocol Associated type
+        var box = Box(items: [])
+        box.add(item: "box1")
+        print(box.items)
+        var box1 = BoxInt(items: [2])
+        box1.add(item: 1)
+        print(box1.items)
+       
+        //Protocol and opaque type
+        let shape = craeteShapeCircle(isLarge: true)
+        print(shape.draw())
         
         let  account1 = BankAccount()
         let  account2 = BankAccount()

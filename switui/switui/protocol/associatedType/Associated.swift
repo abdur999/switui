@@ -21,3 +21,10 @@ struct Box:Container {
         items.append(item)
     }
 }
+struct BoxInt:Container {
+    var items: [Int]
+    
+    mutating func add(item: Int) {
+        items.append(item)
+    }
+}
