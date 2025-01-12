@@ -41,6 +41,9 @@ struct swituiApp: App {
             print("Balance of account2 after deduction : \(await account2.getBalance())")
             print("Account number after masking \(account2.getMaskedAccountNumber())")
         }
+        
+        MainFactory().callFactory()
+        
     }
     var body: some Scene {
         WindowGroup {
