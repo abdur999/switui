@@ -48,6 +48,8 @@ struct swituiApp: App {
         
         srp()
         
+        ocp()
+        
     }
     func Factory() {
         MainFactory().callFactory()
@@ -69,6 +71,17 @@ struct swituiApp: App {
         
         let user = Usr(id: 1, name: "John Doe", email: "Johndoe@gmail.com")
         userManager.saveUser(user)
+    }
+    //Open/Closed Principle
+    func ocp() {
+        let creditCardPayment = CreditCardPayemnt()
+        let payPalPayment = PayPalPayemnt()
+        
+        let creditCardProcessor = PaymentMethodProcessor(paymentMethod: creditCardPayment)
+        creditCardProcessor.processPayemnt(amount: 100.0)
+        
+        let payPalProcessor = PaymentMethodProcessor(paymentMethod: payPalPayment)
+        payPalProcessor.processPayemnt(amount: 200.0)
     }
     var body: some Scene {
         WindowGroup {

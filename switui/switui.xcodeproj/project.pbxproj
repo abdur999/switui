@@ -32,6 +32,7 @@
 		A4E4BD3B2D32789600F84955 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4BD3A2D32789600F84955 /* GridView.swift */; };
 		A4E4BD3E2D327CAC00F84955 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4BD3D2D327CAC00F84955 /* BankAccount.swift */; };
 		A4EA56D72D340B15001F4FBE /* SingleReponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA56D62D340B15001F4FBE /* SingleReponsibility.swift */; };
+		A4EA56D92D341204001F4FBE /* OpenClosed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA56D82D341204001F4FBE /* OpenClosed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		A4E4BD3A2D32789600F84955 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		A4E4BD3D2D327CAC00F84955 /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 		A4EA56D62D340B15001F4FBE /* SingleReponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleReponsibility.swift; sourceTree = "<group>"; };
+		A4EA56D82D341204001F4FBE /* OpenClosed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenClosed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -273,6 +275,7 @@
 			isa = PBXGroup;
 			children = (
 				A4EA56D62D340B15001F4FBE /* SingleReponsibility.swift */,
+				A4EA56D82D341204001F4FBE /* OpenClosed.swift */,
 			);
 			path = SOLID;
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A475F8012D1DC49900A7739F /* StringExt.swift in Sources */,
+				A4EA56D92D341204001F4FBE /* OpenClosed.swift in Sources */,
 				A4A468422D1CFA5900AFC0F9 /* Book.swift in Sources */,
 				A48320802D3359E00046F268 /* ProtocolType.swift in Sources */,
 				A41B01C42D171E510062C097 /* PostViewModel.swift in Sources */,
