@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A411B4D62D352537008158BE /* InterfaceSegrigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A411B4D52D352537008158BE /* InterfaceSegrigration.swift */; };
 		A41B019A2D171CD60062C097 /* swituiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41B01992D171CD60062C097 /* swituiApp.swift */; };
 		A41B019C2D171CD60062C097 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41B019B2D171CD60062C097 /* ContentView.swift */; };
 		A41B019E2D171CD80062C097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41B019D2D171CD80062C097 /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A411B4D52D352537008158BE /* InterfaceSegrigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSegrigration.swift; sourceTree = "<group>"; };
 		A41B01962D171CD60062C097 /* switui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41B01992D171CD60062C097 /* swituiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swituiApp.swift; sourceTree = "<group>"; };
 		A41B019B2D171CD60062C097 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 				A4EA56D82D341204001F4FBE /* OpenClosed.swift */,
 				A4EA56DA2D341C2F001F4FBE /* LiskovSubstitution.swift */,
 				A4EA56DC2D342609001F4FBE /* DependencyInversion.swift */,
+				A411B4D52D352537008158BE /* InterfaceSegrigration.swift */,
 			);
 			path = SOLID;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				A42B42192D32D565006C7A60 /* ViewOnlyProtocol.swift in Sources */,
 				A4E4BD3E2D327CAC00F84955 /* BankAccount.swift in Sources */,
 				A41B019A2D171CD60062C097 /* swituiApp.swift in Sources */,
+				A411B4D62D352537008158BE /* InterfaceSegrigration.swift in Sources */,
 				A4EA56D72D340B15001F4FBE /* SingleReponsibility.swift in Sources */,
 				A475F8052D1DC52700A7739F /* EditBookView.swift in Sources */,
 				A42B421C2D32DC3E006C7A60 /* Shape.swift in Sources */,
