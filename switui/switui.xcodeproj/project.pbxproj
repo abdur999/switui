@@ -37,6 +37,7 @@
 		A4EA56DB2D341C2F001F4FBE /* LiskovSubstitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA56DA2D341C2F001F4FBE /* LiskovSubstitution.swift */; };
 		A4EA56DD2D342609001F4FBE /* DependencyInversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EA56DC2D342609001F4FBE /* DependencyInversion.swift */; };
 		A4FD92252D357B8500B54E33 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD92242D357B8500B54E33 /* Prototype.swift */; };
+		A4FD92272D357F3800B54E33 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD92262D357F3800B54E33 /* Builder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		A4EA56DA2D341C2F001F4FBE /* LiskovSubstitution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiskovSubstitution.swift; sourceTree = "<group>"; };
 		A4EA56DC2D342609001F4FBE /* DependencyInversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInversion.swift; sourceTree = "<group>"; };
 		A4FD92242D357B8500B54E33 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
+		A4FD92262D357F3800B54E33 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 				A4788F222D33C73E0026F553 /* Factory.swift */,
 				A4788F242D33CB750026F553 /* AbstractFactory.swift */,
 				A4FD92242D357B8500B54E33 /* Prototype.swift */,
+				A4FD92262D357F3800B54E33 /* Builder.swift */,
 			);
 			path = Creational;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				A41B01C42D171E510062C097 /* PostViewModel.swift in Sources */,
 				A41B01C82D171EC50062C097 /* APIService.swift in Sources */,
 				A4FD92252D357B8500B54E33 /* Prototype.swift in Sources */,
+				A4FD92272D357F3800B54E33 /* Builder.swift in Sources */,
 				A4EA56DB2D341C2F001F4FBE /* LiskovSubstitution.swift in Sources */,
 				A475F8032D1DC4DF00A7739F /* BookListView.swift in Sources */,
 				A4788F252D33CB750026F553 /* AbstractFactory.swift in Sources */,

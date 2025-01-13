@@ -57,6 +57,8 @@ struct swituiApp: App {
         
         di()
         
+        biulder()
+        
     }
     func Factory() {
         MainFactory().callFactory()
@@ -79,6 +81,28 @@ struct swituiApp: App {
         var workAddress = prototype.clone()
         workAddress.title = "Work"
         workAddress.printAddress()
+    }
+    //Builder Pattern added here
+    func biulder() {
+        let builder = CustomPizzaBuilder()
+        //build pizza Manually
+        let customPizza = builder
+            .setSize("Small")
+            .setCrust("thick")
+            .setCheese("Mozzarella")
+            .addTopings("Tomatoes")
+            .addTopings("Basil")
+            .build()
+        print(customPizza.description())
+        
+        //Use Director to build pre-defined pizzas
+        let director = PizzaDirector(builder: builder)
+        
+        let classicPizza = director.createClassicPizza()
+        print(classicPizza.description())
+        
+        let vegetarianPizza = director.createVegetarianPizza()
+        print(vegetarianPizza.description())
     }
     // Single Responsibility Principle
     func srp() {
