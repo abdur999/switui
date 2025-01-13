@@ -46,6 +46,8 @@ struct swituiApp: App {
         
         AbstarctFactory()
         
+        prototype()
+        
         srp()
         
         ocp()
@@ -68,6 +70,15 @@ struct swituiApp: App {
         client3.startOrder()
         let client4 = Client(clientName: "rajesh", orderItem: .FrenchFries)
         client4.startOrder()
+    }
+    func prototype() {
+        let prototype = AddressPrototype(title: "Home", phone: "8177570945", city: "Kolkata")
+        var homeAddress = prototype.clone()
+        homeAddress.printAddress()
+        
+        var workAddress = prototype.clone()
+        workAddress.title = "Work"
+        workAddress.printAddress()
     }
     // Single Responsibility Principle
     func srp() {
