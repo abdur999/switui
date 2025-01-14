@@ -52,6 +52,8 @@ struct swituiApp: App {
         
         composite()
         
+        facade()
+        
         srp()
         
         ocp()
@@ -145,6 +147,11 @@ struct swituiApp: App {
         print("Cost of cofee: \(myCofee.cost())")
         print("Cost of cofee with milk: \(myCofeeWithMilk.cost())")
         print("Cost of cofee with milk and sugar: \(myCofeeWithMilkAndSugar.cost())")
+    }
+    //MARK: Facade structural Pattern
+    func facade() {
+        let filefacade = FileFacade()
+        filefacade.processFile(filename: "example.txt", content: "Hello World")
     }
     // Single Responsibility Principle
     func srp() {
