@@ -48,6 +48,8 @@ struct swituiApp: App {
         
         prototype()
         
+        adapterPattern()
+        
         srp()
         
         ocp()
@@ -103,6 +105,13 @@ struct swituiApp: App {
         
         let vegetarianPizza = director.createVegetarianPizza()
         print(vegetarianPizza.description())
+    }
+    func  adapterPattern() {
+        //Usage
+        let apiResponse = WeatherAPIResponse(tempareture: 22.5, humidity: 65.0)
+        let adapter = WeatherAdapter()
+        let weather = adapter.adapt(response: apiResponse)
+        print("Weather tempareture is \(weather.temp)")
     }
     // Single Responsibility Principle
     func srp() {
