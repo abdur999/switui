@@ -57,9 +57,7 @@ struct swituiApp: App {
         lsp()
         
         
-        di()
-        
-        biulder()
+    bridgePattern()
         
     }
     func Factory() {
@@ -112,6 +110,14 @@ struct swituiApp: App {
         let adapter = WeatherAdapter()
         let weather = adapter.adapt(response: apiResponse)
         print("Weather tempareture is \(weather.temp)")
+    }
+    func bridgePattern() {
+        let creditCardPayment = PaymentProcesor(paymentMethod: CreditCardPay())
+        creditCardPayment.pay(amount: 50.0)
+        
+        let payPaldPayment = PaymentProcesor(paymentMethod: PayPalPay())
+        payPaldPayment.pay(amount: 50.0)
+        
     }
     // Single Responsibility Principle
     func srp() {
