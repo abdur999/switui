@@ -30,6 +30,7 @@
 		A4788F252D33CB750026F553 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4788F242D33CB750026F553 /* AbstractFactory.swift */; };
 		A48320802D3359E00046F268 /* ProtocolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483207F2D3359E00046F268 /* ProtocolType.swift */; };
 		A4A468422D1CFA5900AFC0F9 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A468412D1CFA5900AFC0F9 /* Book.swift */; };
+		A4A5BCB82D36943000EC23D6 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A5BCB72D36943000EC23D6 /* Composite.swift */; };
 		A4CDD9EB2D3602E60092B474 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CDD9EA2D3602E60092B474 /* Adapter.swift */; };
 		A4CDD9ED2D36691E0092B474 /* BridgePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CDD9EC2D36691E0092B474 /* BridgePattern.swift */; };
 		A4E4BD3B2D32789600F84955 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4BD3A2D32789600F84955 /* GridView.swift */; };
@@ -87,6 +88,7 @@
 		A4788F242D33CB750026F553 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		A483207F2D3359E00046F268 /* ProtocolType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolType.swift; sourceTree = "<group>"; };
 		A4A468412D1CFA5900AFC0F9 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		A4A5BCB72D36943000EC23D6 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		A4CDD9EA2D3602E60092B474 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		A4CDD9EC2D36691E0092B474 /* BridgePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgePattern.swift; sourceTree = "<group>"; };
 		A4E4BD3A2D32789600F84955 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 			children = (
 				A4CDD9EA2D3602E60092B474 /* Adapter.swift */,
 				A4CDD9EC2D36691E0092B474 /* BridgePattern.swift */,
+				A4A5BCB72D36943000EC23D6 /* Composite.swift */,
 			);
 			path = Structural;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				A42B421F2D32E297006C7A60 /* Associated.swift in Sources */,
 				A4EA56DD2D342609001F4FBE /* DependencyInversion.swift in Sources */,
 				A41B01C62D171E9C0062C097 /* Post.swift in Sources */,
+				A4A5BCB82D36943000EC23D6 /* Composite.swift in Sources */,
 				A4788F232D33C73E0026F553 /* Factory.swift in Sources */,
 				A427DB9F2D2CEC8000DF8EB0 /* OperatorsUse.swift in Sources */,
 				A4E4BD3B2D32789600F84955 /* GridView.swift in Sources */,

@@ -50,6 +50,8 @@ struct swituiApp: App {
         
         adapterPattern()
         
+        composite()
+        
         srp()
         
         ocp()
@@ -60,9 +62,11 @@ struct swituiApp: App {
     bridgePattern()
         
     }
+    //MARK: Factory creational Pattern
     func Factory() {
         MainFactory().callFactory()
     }
+    //MARK: AbstractFactory creational Pattern
     func AbstarctFactory() {
         let client = Client(clientName: "Jim", orderItem: .MargharitaPizza)
         client.startOrder()
@@ -73,6 +77,7 @@ struct swituiApp: App {
         let client4 = Client(clientName: "rajesh", orderItem: .FrenchFries)
         client4.startOrder()
     }
+    //MARK: Prototype creational Pattern
     func prototype() {
         let prototype = AddressPrototype(title: "Home", phone: "8177570945", city: "Kolkata")
         var homeAddress = prototype.clone()
@@ -82,6 +87,7 @@ struct swituiApp: App {
         workAddress.title = "Work"
         workAddress.printAddress()
     }
+    //MARK: Builder creational Pattern
     //Builder Pattern added here
     func biulder() {
         let builder = CustomPizzaBuilder()
@@ -104,6 +110,7 @@ struct swituiApp: App {
         let vegetarianPizza = director.createVegetarianPizza()
         print(vegetarianPizza.description())
     }
+    //MARK: Adapter structural Pattern
     func  adapterPattern() {
         //Usage
         let apiResponse = WeatherAPIResponse(tempareture: 22.5, humidity: 65.0)
@@ -111,6 +118,7 @@ struct swituiApp: App {
         let weather = adapter.adapt(response: apiResponse)
         print("Weather tempareture is \(weather.temp)")
     }
+    //MARK: Bridge structural Pattern
     func bridgePattern() {
         let creditCardPayment = PaymentProcesor(paymentMethod: CreditCardPay())
         creditCardPayment.pay(amount: 50.0)
@@ -118,6 +126,15 @@ struct swituiApp: App {
         let payPaldPayment = PaymentProcesor(paymentMethod: PayPalPay())
         payPaldPayment.pay(amount: 50.0)
         
+    }
+    //MARK: Composite structural Pattern
+    func composite() {
+        let button = Button()
+        let label = Label()
+        let stack = Stack()
+        stack.add(button)
+        stack.add(label)
+        stack.render()
     }
     // Single Responsibility Principle
     func srp() {
