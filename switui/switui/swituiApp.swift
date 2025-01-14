@@ -136,6 +136,16 @@ struct swituiApp: App {
         stack.add(label)
         stack.render()
     }
+    //MARK: Decorator structural Pattern
+    func decorator()  {
+        let myCofee = Cofee()
+        let myCofeeWithMilk = MilkDecorator(drink: myCofee)
+        let myCofeeWithMilkAndSugar = SugarDecorator(drink: myCofeeWithMilk)
+        
+        print("Cost of cofee: \(myCofee.cost())")
+        print("Cost of cofee with milk: \(myCofeeWithMilk.cost())")
+        print("Cost of cofee with milk and sugar: \(myCofeeWithMilkAndSugar.cost())")
+    }
     // Single Responsibility Principle
     func srp() {
         let emaiService = EmailService()
