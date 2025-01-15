@@ -60,6 +60,7 @@ struct swituiApp: App {
         
         chainOFResponsibility()
         
+        command()
         
         srp()
         
@@ -188,6 +189,21 @@ struct swituiApp: App {
         fileLogger.nextLogger = emailLogger
         consoleLogger.log(message: "This is a test log")
         consoleLogger.nextLogger?.log(message: "This is test log from other source")
+    }
+    
+    //MARK: Command Behavioral Pattern
+    func command() {
+        //Usage
+        let light = Light()
+        let lightOn = LightOnCommand(light: light)
+        let lightOff = LightOffCommand(light: light)
+        
+        let remote = RemoteControl()
+        remote.setCommand(command: lightOn)
+        remote.pressButton()
+        
+        remote.setCommand(command: lightOff)
+        remote.pressButton()
     }
     
     // Single Responsibility Principle

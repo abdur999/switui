@@ -25,6 +25,7 @@
 		A42E71282D374A4400C88AD1 /* FlyWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E71272D374A4400C88AD1 /* FlyWeight.swift */; };
 		A42E712A2D37532500C88AD1 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E71292D37532500C88AD1 /* Proxy.swift */; };
 		A42E712D2D375AF800C88AD1 /* ChainResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E712C2D375AF800C88AD1 /* ChainResponsibility.swift */; };
+		A42E712F2D3778DA00C88AD1 /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E712E2D3778DA00C88AD1 /* CommandPattern.swift */; };
 		A475F8012D1DC49900A7739F /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8002D1DC49900A7739F /* StringExt.swift */; };
 		A475F8032D1DC4DF00A7739F /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8022D1DC4DF00A7739F /* BookListView.swift */; };
 		A475F8052D1DC52700A7739F /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8042D1DC52700A7739F /* EditBookView.swift */; };
@@ -88,6 +89,7 @@
 		A42E71272D374A4400C88AD1 /* FlyWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeight.swift; sourceTree = "<group>"; };
 		A42E71292D37532500C88AD1 /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
 		A42E712C2D375AF800C88AD1 /* ChainResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainResponsibility.swift; sourceTree = "<group>"; };
+		A42E712E2D3778DA00C88AD1 /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		A475F8002D1DC49900A7739F /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		A475F8022D1DC4DF00A7739F /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		A475F8042D1DC52700A7739F /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				A42E712C2D375AF800C88AD1 /* ChainResponsibility.swift */,
+				A42E712E2D3778DA00C88AD1 /* CommandPattern.swift */,
 			);
 			path = Behavioral;
 			sourceTree = "<group>";
@@ -500,6 +503,7 @@
 				A4A5BCB82D36943000EC23D6 /* Composite.swift in Sources */,
 				A4A5BCBC2D36BEA200EC23D6 /* Facade.swift in Sources */,
 				A4788F232D33C73E0026F553 /* Factory.swift in Sources */,
+				A42E712F2D3778DA00C88AD1 /* CommandPattern.swift in Sources */,
 				A427DB9F2D2CEC8000DF8EB0 /* OperatorsUse.swift in Sources */,
 				A4E4BD3B2D32789600F84955 /* GridView.swift in Sources */,
 				A475F8072D1DC56000A7739F /* NewBookView.swift in Sources */,
