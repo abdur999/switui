@@ -64,6 +64,8 @@ struct swituiApp: App {
         
         iterator()
         
+        mediator()
+        
         srp()
         
         ocp()
@@ -207,6 +209,7 @@ struct swituiApp: App {
         remote.setCommand(command: lightOff)
         remote.pressButton()
     }
+    //MARK: Interpreter Behavioral Pattern
     func interpreter() {
         let five = NumberExpression(number: 5)
         let ten = NumberExpression(number: 10)
@@ -215,6 +218,7 @@ struct swituiApp: App {
         let result = addExpression.interpret()
         print("Intrepreter result \(result)")
     }
+    //MARK: Iterator Behavioral Pattern
     func iterator() {
         let numbers = [1,2,3,4,5]
         let iterator = ArrayIteratorU(array: numbers)
@@ -223,6 +227,18 @@ struct swituiApp: App {
                 print(number)
             }
         }
+    }
+    //MARK: Mediator Behavioral Pattern
+    func mediator() {
+        let chatRoom = ChatRoom()
+        let user1 = Userx(name: "Alice")
+        let user2 = Userx(name: "Bob")
+        
+        user1.joinChat(chatRoom: chatRoom)
+        user2.joinChat(chatRoom: chatRoom)
+        
+        user1.sendMessage(message: "Hello Bob!")
+        user2.sendMessage(message: "Hi Alice!")
     }
     // Single Responsibility Principle
     func srp() {

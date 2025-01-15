@@ -39,6 +39,8 @@
 		A4A5BCB82D36943000EC23D6 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A5BCB72D36943000EC23D6 /* Composite.swift */; };
 		A4A5BCBA2D36B79F00EC23D6 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A5BCB92D36B79F00EC23D6 /* Decorator.swift */; };
 		A4A5BCBC2D36BEA200EC23D6 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A5BCBB2D36BEA200EC23D6 /* Facade.swift */; };
+		A4C526EE2D37DDFC0054D478 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C526ED2D37DDFC0054D478 /* Mediator.swift */; };
+		A4C526F02D3800C10054D478 /* MementoPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C526EF2D3800C10054D478 /* MementoPattern.swift */; };
 		A4CDD9EB2D3602E60092B474 /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CDD9EA2D3602E60092B474 /* Adapter.swift */; };
 		A4CDD9ED2D36691E0092B474 /* BridgePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CDD9EC2D36691E0092B474 /* BridgePattern.swift */; };
 		A4E4BD3B2D32789600F84955 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E4BD3A2D32789600F84955 /* GridView.swift */; };
@@ -105,6 +107,8 @@
 		A4A5BCB72D36943000EC23D6 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		A4A5BCB92D36B79F00EC23D6 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		A4A5BCBB2D36BEA200EC23D6 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		A4C526ED2D37DDFC0054D478 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		A4C526EF2D3800C10054D478 /* MementoPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPattern.swift; sourceTree = "<group>"; };
 		A4CDD9EA2D3602E60092B474 /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		A4CDD9EC2D36691E0092B474 /* BridgePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgePattern.swift; sourceTree = "<group>"; };
 		A4E4BD3A2D32789600F84955 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
@@ -259,6 +263,8 @@
 				A42E712E2D3778DA00C88AD1 /* CommandPattern.swift */,
 				A42E71302D3780B700C88AD1 /* InterpreterPattern.swift */,
 				A42E71322D37837500C88AD1 /* IteratorPattern.swift */,
+				A4C526ED2D37DDFC0054D478 /* Mediator.swift */,
+				A4C526EF2D3800C10054D478 /* MementoPattern.swift */,
 			);
 			path = Behavioral;
 			sourceTree = "<group>";
@@ -507,9 +513,11 @@
 				A42B421C2D32DC3E006C7A60 /* Shape.swift in Sources */,
 				A42B421F2D32E297006C7A60 /* Associated.swift in Sources */,
 				A4EA56DD2D342609001F4FBE /* DependencyInversion.swift in Sources */,
+				A4C526EE2D37DDFC0054D478 /* Mediator.swift in Sources */,
 				A41B01C62D171E9C0062C097 /* Post.swift in Sources */,
 				A4A5BCB82D36943000EC23D6 /* Composite.swift in Sources */,
 				A4A5BCBC2D36BEA200EC23D6 /* Facade.swift in Sources */,
+				A4C526F02D3800C10054D478 /* MementoPattern.swift in Sources */,
 				A4788F232D33C73E0026F553 /* Factory.swift in Sources */,
 				A42E712F2D3778DA00C88AD1 /* CommandPattern.swift in Sources */,
 				A427DB9F2D2CEC8000DF8EB0 /* OperatorsUse.swift in Sources */,
