@@ -13,21 +13,21 @@ protocol UIElement {
 }
 
 //Leaf component
-class Button:UIElement {
+class UButton:UIElement {
     func render() {
         print("Rendering button")
     }
 }
 
 //Leaf component
-class Label:UIElement {
+class ULabel:UIElement {
     func render() {
         print("Rendering button")
     }
 }
 
 //Composite component
-class Stack:UIElement {
+class UStack:UIElement {
     private var elements = [UIElement]()
     func add(_ elemnent:UIElement) {
         elements.append(elemnent)

@@ -129,9 +129,9 @@ struct swituiApp: App {
     }
     //MARK: Composite structural Pattern
     func composite() {
-        let button = Button()
-        let label = Label()
-        let stack = Stack()
+        let button = UButton()
+        let label = ULabel()
+        let stack = UStack()
         stack.add(button)
         stack.add(label)
         stack.render()
