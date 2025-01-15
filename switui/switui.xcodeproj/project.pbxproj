@@ -23,6 +23,7 @@
 		A42B421C2D32DC3E006C7A60 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B421B2D32DC3E006C7A60 /* Shape.swift */; };
 		A42B421F2D32E297006C7A60 /* Associated.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B421E2D32E297006C7A60 /* Associated.swift */; };
 		A42E71282D374A4400C88AD1 /* FlyWeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E71272D374A4400C88AD1 /* FlyWeight.swift */; };
+		A42E712A2D37532500C88AD1 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E71292D37532500C88AD1 /* Proxy.swift */; };
 		A475F8012D1DC49900A7739F /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8002D1DC49900A7739F /* StringExt.swift */; };
 		A475F8032D1DC4DF00A7739F /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8022D1DC4DF00A7739F /* BookListView.swift */; };
 		A475F8052D1DC52700A7739F /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8042D1DC52700A7739F /* EditBookView.swift */; };
@@ -84,6 +85,7 @@
 		A42B421B2D32DC3E006C7A60 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		A42B421E2D32E297006C7A60 /* Associated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Associated.swift; sourceTree = "<group>"; };
 		A42E71272D374A4400C88AD1 /* FlyWeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWeight.swift; sourceTree = "<group>"; };
+		A42E71292D37532500C88AD1 /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
 		A475F8002D1DC49900A7739F /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		A475F8022D1DC4DF00A7739F /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		A475F8042D1DC52700A7739F /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 				A4A5BCB92D36B79F00EC23D6 /* Decorator.swift */,
 				A4A5BCBB2D36BEA200EC23D6 /* Facade.swift */,
 				A42E71272D374A4400C88AD1 /* FlyWeight.swift */,
+				A42E71292D37532500C88AD1 /* Proxy.swift */,
 			);
 			path = Structural;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				A4CDD9ED2D36691E0092B474 /* BridgePattern.swift in Sources */,
 				A4EA56DB2D341C2F001F4FBE /* LiskovSubstitution.swift in Sources */,
 				A475F8032D1DC4DF00A7739F /* BookListView.swift in Sources */,
+				A42E712A2D37532500C88AD1 /* Proxy.swift in Sources */,
 				A4FD92292D358E3800B54E33 /* Singleton.swift in Sources */,
 				A4788F252D33CB750026F553 /* AbstractFactory.swift in Sources */,
 				A41B019C2D171CD60062C097 /* ContentView.swift in Sources */,

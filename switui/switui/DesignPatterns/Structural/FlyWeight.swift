@@ -8,7 +8,7 @@
 import Foundation
 
 /*
- Flyweight PAttern is used to reduce memory usage by sharing objects that are identicak in some way. It is useful when you need to manage large quantities of similar objects
+ Flyweight Pattern is used to reduce memory usage by sharing objects that are identicak in some way. It is useful when you need to manage large quantities of similar objects
  */
 //Flyweight class
 class TextFormat {

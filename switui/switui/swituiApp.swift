@@ -56,6 +56,8 @@ struct swituiApp: App {
         
         flyweight()
         
+        proxy()
+        
         srp()
         
         ocp()
@@ -155,6 +157,7 @@ struct swituiApp: App {
         let filefacade = FileFacade()
         filefacade.processFile(filename: "example.txt", content: "Hello World")
     }
+    //MARK: Flyweight structural Pattern
     func flyweight() {
         let factory = TextFormatFactory()
         let format1 = factory.getFormat(font: "Arial", fontSize: 12)
@@ -164,6 +167,12 @@ struct swituiApp: App {
         print("flyweight")
         print(format1 === format2)
         print(format1 === format4)
+    }
+    func proxy() {
+        //Usage
+        let proxy = CaachingProxy()
+        print(proxy.fetchData()) // Fetches from server
+        print(proxy.fetchData()) // Return from cached data
     }
     // Single Responsibility Principle
     func srp() {
