@@ -58,6 +58,9 @@ struct swituiApp: App {
         
         proxy()
         
+        chainOFResponsibility()
+        
+        
         srp()
         
         ocp()
@@ -168,12 +171,25 @@ struct swituiApp: App {
         print(format1 === format2)
         print(format1 === format4)
     }
+    //MARK: Proxy structural Pattern
     func proxy() {
         //Usage
         let proxy = CaachingProxy()
         print(proxy.fetchData()) // Fetches from server
         print(proxy.fetchData()) // Return from cached data
     }
+    //MARK: ChainOfResponsibility Behavioral Pattern
+    func chainOFResponsibility() {
+        let consoleLogger = ConsoleLoggerY()
+        let fileLogger = FileLoggerY()
+        let emailLogger = EmailLoggerY()
+        
+        consoleLogger.nextLogger = fileLogger
+        fileLogger.nextLogger = emailLogger
+        consoleLogger.log(message: "This is a test log")
+        consoleLogger.nextLogger?.log(message: "This is test log from other source")
+    }
+    
     // Single Responsibility Principle
     func srp() {
         let emaiService = EmailService()
