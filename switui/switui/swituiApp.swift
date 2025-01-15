@@ -205,7 +205,14 @@ struct swituiApp: App {
         remote.setCommand(command: lightOff)
         remote.pressButton()
     }
-    
+    func interpreter() {
+        let five = NumberExpression(number: 5)
+        let ten = NumberExpression(number: 10)
+        
+        let addExpression = AddExpression(left: five, right: ten)
+        let result = addExpression.interpret()
+        print("Intrepreter result \(result)")
+    }
     // Single Responsibility Principle
     func srp() {
         let emaiService = EmailService()
