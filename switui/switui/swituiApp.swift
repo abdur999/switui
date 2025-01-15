@@ -54,6 +54,8 @@ struct swituiApp: App {
         
         facade()
         
+        flyweight()
+        
         srp()
         
         ocp()
@@ -152,6 +154,16 @@ struct swituiApp: App {
     func facade() {
         let filefacade = FileFacade()
         filefacade.processFile(filename: "example.txt", content: "Hello World")
+    }
+    func flyweight() {
+        let factory = TextFormatFactory()
+        let format1 = factory.getFormat(font: "Arial", fontSize: 12)
+        let format2 = factory.getFormat(font: "Arial Black", fontSize: 12)
+        let format3 = factory.getFormat(font: "Times New Roman", fontSize: 18)
+        let format4 = factory.getFormat(font: "Arial", fontSize: 12)
+        print("flyweight")
+        print(format1 === format2)
+        print(format1 === format4)
     }
     // Single Responsibility Principle
     func srp() {
