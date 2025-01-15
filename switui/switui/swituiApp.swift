@@ -62,6 +62,8 @@ struct swituiApp: App {
         
         command()
         
+        iterator()
+        
         srp()
         
         ocp()
@@ -212,6 +214,15 @@ struct swituiApp: App {
         let addExpression = AddExpression(left: five, right: ten)
         let result = addExpression.interpret()
         print("Intrepreter result \(result)")
+    }
+    func iterator() {
+        let numbers = [1,2,3,4,5]
+        let iterator = ArrayIteratorU(array: numbers)
+        while iterator.hasNext() {
+            if let number = iterator.next() {
+                print(number)
+            }
+        }
     }
     // Single Responsibility Principle
     func srp() {
