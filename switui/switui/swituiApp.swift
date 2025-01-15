@@ -240,6 +240,19 @@ struct swituiApp: App {
         user1.sendMessage(message: "Hello Bob!")
         user2.sendMessage(message: "Hi Alice!")
     }
+    func memento() {
+        let editor = Editor()
+        editor.type(text: "Hello")
+        editor.type(text: "World!")
+        
+        let savedState = editor.save()
+        
+        editor.type(text: "GoodBye!")
+        print(editor.getContent())
+        
+        editor.restore(memento: savedState)
+        print(editor.getContent())
+    }
     // Single Responsibility Principle
     func srp() {
         let emaiService = EmailService()
