@@ -72,6 +72,12 @@ struct swituiApp: App {
         
         state()
         
+        strategy()
+         
+        template()
+        
+        visitor()
+        
         srp()
         
         ocp()
@@ -321,11 +327,24 @@ struct swituiApp: App {
     }
     //MARK: Template Behavioral Pattern
     func template() {
+        print("**** -- Template Behavioral Pattern added -- ****")
         let chess = Chess()
         chess.play()
         
         let soccer = Soccer()
         soccer.play()
+    }
+    //MARK: Visitor Behavioral Pattern
+    func visitor() {
+        print("**** -- Visitor Behavioral Pattern added -- ****")
+        let circle = CircleV()
+        let rectangle = RectangleV()
+        
+        let areaCalculator = ShapeAreaCalculator()
+        
+        circle.accept(visitor: areaCalculator)
+        rectangle.accept(visitor: areaCalculator)
+        
     }
     // Single Responsibility Principle
     func srp() {
