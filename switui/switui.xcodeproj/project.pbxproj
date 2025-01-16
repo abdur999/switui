@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A410B6E82D38D4690032A22E /* StatePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A410B6E72D38D4690032A22E /* StatePattern.swift */; };
 		A411B4D62D352537008158BE /* InterfaceSegrigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A411B4D52D352537008158BE /* InterfaceSegrigration.swift */; };
 		A41B019A2D171CD60062C097 /* swituiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41B01992D171CD60062C097 /* swituiApp.swift */; };
 		A41B019C2D171CD60062C097 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41B019B2D171CD60062C097 /* ContentView.swift */; };
@@ -73,6 +74,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A410B6E72D38D4690032A22E /* StatePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePattern.swift; sourceTree = "<group>"; };
 		A411B4D52D352537008158BE /* InterfaceSegrigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceSegrigration.swift; sourceTree = "<group>"; };
 		A41B01962D171CD60062C097 /* switui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41B01992D171CD60062C097 /* swituiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swituiApp.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 				A4C526ED2D37DDFC0054D478 /* Mediator.swift */,
 				A4C526EF2D3800C10054D478 /* MementoPattern.swift */,
 				A4C526F12D3811890054D478 /* ObserverPattern.swift */,
+				A410B6E72D38D4690032A22E /* StatePattern.swift */,
 			);
 			path = Behavioral;
 			sourceTree = "<group>";
@@ -524,6 +527,7 @@
 				A4C526F02D3800C10054D478 /* MementoPattern.swift in Sources */,
 				A4788F232D33C73E0026F553 /* Factory.swift in Sources */,
 				A42E712F2D3778DA00C88AD1 /* CommandPattern.swift in Sources */,
+				A410B6E82D38D4690032A22E /* StatePattern.swift in Sources */,
 				A427DB9F2D2CEC8000DF8EB0 /* OperatorsUse.swift in Sources */,
 				A4E4BD3B2D32789600F84955 /* GridView.swift in Sources */,
 				A475F8072D1DC56000A7739F /* NewBookView.swift in Sources */,

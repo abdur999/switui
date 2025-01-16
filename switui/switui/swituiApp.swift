@@ -70,6 +70,8 @@ struct swituiApp: App {
         
         bridgePattern()
         
+        state()
+        
         srp()
         
         ocp()
@@ -286,6 +288,24 @@ struct swituiApp: App {
         weatherStation.addObserver(observer: desktopDisplay)
         
         weatherStation.setTempareture(tempareture: 25.0)
+    }
+    //MARK: State Behavioral Pattern
+    func state() {
+        print("**** -- State Behavioral Pattern added -- ****")
+        //Create a vending machine with 2 products in stock
+        let vendingMachine = VendingMachine(initialStock: 2)
+        
+        //Test the vending machine states
+        vendingMachine.selectProduct() //No money inserted
+        vendingMachine.insertCoin()     //Insert coin
+        vendingMachine.selectProduct()  //Select product and dispense
+        
+        vendingMachine.insertCoin() //Insert money
+        vendingMachine.selectProduct()  //Select product and dispose
+        
+        vendingMachine.insertCoin()     //Attempt to insert money when out of stock
+        vendingMachine.selectProduct()      //Attempt to select product when out of stock
+        
     }
     // Single Responsibility Principle
     func srp() {
