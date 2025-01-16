@@ -36,7 +36,12 @@ Downsides:
 Complexity: It can make the codebase more complex, especially when dealing with a large number of elements and visitors.
 Inflexibility with New Element Types: If new types of Employee (or any other element) are introduced, you need to modify every existing Visitor to handle the new type.
  */
-
+/*
+ Use Cases for Visitor Pattern:
+ Operations on Composite Structures: When you have a complex object structure (like a tree or a composite pattern) and need to perform different operations on various elements of the structure.
+ Multiple Operations on a Set of Objects: If you need to apply multiple operations (like calculating taxes, discounts, shipping, etc.) on a set of objects, but you don't want to pollute the objects themselves with those operations.
+ File Processing: In scenarios where you need to process different file formats (e.g., CSV, JSON, XML), the Visitor pattern can be used to separate the parsing and processing logic from the file format classes.
+ */
 protocol ShapeV {
     func accept(visitor:ShapeVisitorV)
 }
