@@ -307,6 +307,18 @@ struct swituiApp: App {
         vendingMachine.selectProduct()      //Attempt to select product when out of stock
         
     }
+    //MARK: Strategy Behavioral Pattern
+    func strategy() {
+        print("**** -- Strategy Behavioral Pattern added -- ****")
+        let quickSort = QuickSort()
+        let mergeSort = MergeSort()
+        
+        let context = Context(strategy: quickSort)
+        print(context.executeSort(array: [3,2,5,1,4]))
+        
+        context.setStrategy(strategy: mergeSort)
+        print(context.executeSort(array: [3,2,5,1,4]))
+    }
     // Single Responsibility Principle
     func srp() {
         print("**** -- Single Responsibility Principle Started -- ****")
