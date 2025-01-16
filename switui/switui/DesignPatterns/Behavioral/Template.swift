@@ -42,6 +42,12 @@
  File Parsing: If you're building a system that needs to read and process different types of files (CSV, JSON, XML), the Template Method pattern can ensure that the reading and processing steps follow the same order, but the actual reading logic can differ for each file type.
  Data Import and Export: If you have multiple types of data export or import operations (e.g., CSV export, JSON export, XML export), you can use the Template Method to define the sequence of actions (e.g., open file → write header → write data → close file) while allowing subclasses to implement specific export logic.
  Game Loop: In games, there’s often a standard sequence of steps (initialize → process input → update game state → render). The Template Method pattern can be used to ensure these steps happen in the correct order while allowing for customized logic in each game subclass.
+ 
+ Use Cases of Template Method Pattern:
+ Data Processing Pipelines: If you have different types of data processing that follow a similar pipeline (e.g., extracting, transforming, and loading data), you can use the Template Method pattern to define the common steps and leave the specific details to subclasses.
+ Game Loops: In games, the main game loop often follows a set sequence of steps: initializing, processing input, updating game state, rendering. The Template Method pattern can help to define the structure of the game loop, while allowing subclasses to define specific actions for each step.
+ Report Generation: If you need to generate reports in different formats (e.g., PDF, CSV, HTML), the general report generation process (such as opening the file, writing headers, writing data, and closing the file) can be defined in a template, while the format-specific details can be handled by subclasses.
+ Document Processing: If you are building a document processing system that needs to handle different types of documents (e.g., text files, PDF files, Word documents), the Template Method pattern can be used to define the overall processing workflow, while allowing subclasses to implement the specific processing logic.
  */
 import Foundation
 
