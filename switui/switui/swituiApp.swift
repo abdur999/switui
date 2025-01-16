@@ -319,6 +319,14 @@ struct swituiApp: App {
         context.setStrategy(strategy: mergeSort)
         print(context.executeSort(array: [3,2,5,1,4]))
     }
+    //MARK: Template Behavioral Pattern
+    func template() {
+        let chess = Chess()
+        chess.play()
+        
+        let soccer = Soccer()
+        soccer.play()
+    }
     // Single Responsibility Principle
     func srp() {
         print("**** -- Single Responsibility Principle Started -- ****")
