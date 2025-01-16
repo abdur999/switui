@@ -66,6 +66,10 @@ struct swituiApp: App {
         
         mediator()
         
+        observer()
+        
+        bridgePattern()
+        
         srp()
         
         ocp()
@@ -73,15 +77,17 @@ struct swituiApp: App {
         lsp()
         
         
-    bridgePattern()
+    
         
     }
     //MARK: Factory creational Pattern
     func Factory() {
+        print("**** -- Factory Pattern Started -- ****")
         MainFactory().callFactory()
     }
     //MARK: AbstractFactory creational Pattern
     func AbstarctFactory() {
+        print("**** -- Abstarct Factory Pattern Started -- ****")
         let client = Client(clientName: "Jim", orderItem: .MargharitaPizza)
         client.startOrder()
         let client2 = Client(clientName: "Deepa", orderItem: .LemonSoda)
@@ -93,6 +99,7 @@ struct swituiApp: App {
     }
     //MARK: Prototype creational Pattern
     func prototype() {
+        print("**** -- Prototype Pattern Started -- ****")
         let prototype = AddressPrototype(title: "Home", phone: "8177570945", city: "Kolkata")
         var homeAddress = prototype.clone()
         homeAddress.printAddress()
@@ -104,6 +111,7 @@ struct swituiApp: App {
     //MARK: Builder creational Pattern
     //Builder Pattern added here
     func biulder() {
+        print("**** -- Builder Pattern Started -- ****")
         let builder = CustomPizzaBuilder()
         //build pizza Manually
         let customPizza = builder
@@ -126,6 +134,7 @@ struct swituiApp: App {
     }
     //MARK: Adapter structural Pattern
     func  adapterPattern() {
+        print("**** -- Adapter Pattern Started -- ****")
         //Usage
         let apiResponse = WeatherAPIResponse(tempareture: 22.5, humidity: 65.0)
         let adapter = WeatherAdapter()
@@ -134,6 +143,7 @@ struct swituiApp: App {
     }
     //MARK: Bridge structural Pattern
     func bridgePattern() {
+        print("**** -- Bridge Pattern Started -- ****")
         let creditCardPayment = PaymentProcesor(paymentMethod: CreditCardPay())
         creditCardPayment.pay(amount: 50.0)
         
@@ -143,6 +153,7 @@ struct swituiApp: App {
     }
     //MARK: Composite structural Pattern
     func composite() {
+        print("**** -- Composite Pattern Started -- ****")
         let button = UButton()
         let label = ULabel()
         let stack = UStack()
@@ -152,6 +163,7 @@ struct swituiApp: App {
     }
     //MARK: Decorator structural Pattern
     func decorator()  {
+        print("**** -- Decorator Pattern Started -- ****")
         let myCofee = Cofee()
         let myCofeeWithMilk = MilkDecorator(drink: myCofee)
         let myCofeeWithMilkAndSugar = SugarDecorator(drink: myCofeeWithMilk)
@@ -162,11 +174,13 @@ struct swituiApp: App {
     }
     //MARK: Facade structural Pattern
     func facade() {
+        print("**** -- Facade Pattern Started -- ****")
         let filefacade = FileFacade()
         filefacade.processFile(filename: "example.txt", content: "Hello World")
     }
     //MARK: Flyweight structural Pattern
     func flyweight() {
+        print("**** -- Flyweight Pattern Started -- ****")
         let factory = TextFormatFactory()
         let format1 = factory.getFormat(font: "Arial", fontSize: 12)
         let format2 = factory.getFormat(font: "Arial Black", fontSize: 12)
@@ -179,12 +193,14 @@ struct swituiApp: App {
     //MARK: Proxy structural Pattern
     func proxy() {
         //Usage
+        print("**** -- proxy Pattern Started -- ****")
         let proxy = CaachingProxy()
         print(proxy.fetchData()) // Fetches from server
         print(proxy.fetchData()) // Return from cached data
     }
     //MARK: ChainOfResponsibility Behavioral Pattern
     func chainOFResponsibility() {
+        print("**** -- ChainOfResponsibility Pattern Started -- ****")
         let consoleLogger = ConsoleLoggerY()
         let fileLogger = FileLoggerY()
         let emailLogger = EmailLoggerY()
@@ -197,6 +213,7 @@ struct swituiApp: App {
     
     //MARK: Command Behavioral Pattern
     func command() {
+        print("**** -- Command Pattern Started -- ****")
         //Usage
         let light = Light()
         let lightOn = LightOnCommand(light: light)
@@ -211,6 +228,7 @@ struct swituiApp: App {
     }
     //MARK: Interpreter Behavioral Pattern
     func interpreter() {
+        print("**** -- Interpreter Pattern Started -- ****")
         let five = NumberExpression(number: 5)
         let ten = NumberExpression(number: 10)
         
@@ -220,6 +238,7 @@ struct swituiApp: App {
     }
     //MARK: Iterator Behavioral Pattern
     func iterator() {
+        print("**** -- Iterator Pattern Started -- ****")
         let numbers = [1,2,3,4,5]
         let iterator = ArrayIteratorU(array: numbers)
         while iterator.hasNext() {
@@ -230,6 +249,7 @@ struct swituiApp: App {
     }
     //MARK: Mediator Behavioral Pattern
     func mediator() {
+        print("**** -- Mediator Pattern Started -- ****")
         let chatRoom = ChatRoom()
         let user1 = Userx(name: "Alice")
         let user2 = Userx(name: "Bob")
@@ -240,7 +260,9 @@ struct swituiApp: App {
         user1.sendMessage(message: "Hello Bob!")
         user2.sendMessage(message: "Hi Alice!")
     }
+    //MARK: Memento Behavioral Pattern
     func memento() {
+        print("**** -- Memento Pattern Started -- ****")
         let editor = Editor()
         editor.type(text: "Hello")
         editor.type(text: "World!")
@@ -253,8 +275,21 @@ struct swituiApp: App {
         editor.restore(memento: savedState)
         print(editor.getContent())
     }
+    //MARK: Observer Behavioral Pattern
+    func observer() {
+        print("**** -- Observer Pattern Started -- ****")
+        let weatherStation = WeatherStation()
+        let phoneDisplay = PhoneDisplay()
+        let desktopDisplay = DesktopDisplay()
+        
+        weatherStation.addObserver(observer: phoneDisplay)
+        weatherStation.addObserver(observer: desktopDisplay)
+        
+        weatherStation.setTempareture(tempareture: 25.0)
+    }
     // Single Responsibility Principle
     func srp() {
+        print("**** -- Single Responsibility Principle Started -- ****")
         let emaiService = EmailService()
         let userManager = UserManagerAccurate(emailService: emaiService)
         
@@ -263,6 +298,7 @@ struct swituiApp: App {
     }
     // Open/Closed Principle
     func ocp() {
+        print("**** -- Open/Closed Principle Started -- ****")
         let creditCardPayment = CreditCardPayemnt()
         let payPalPayment = PayPalPayemnt()
         
@@ -274,6 +310,7 @@ struct swituiApp: App {
     }
     // Liskov Substitution Principle
     func lsp(){
+        print("**** -- Liskov Substitution Principle Started -- ****")
         let rectanglex = RectangleX(width: 5, height: 4)
         AreaCalculator().printArea(of: rectanglex)
         
@@ -282,6 +319,7 @@ struct swituiApp: App {
     }
     // Dependency Inversion Principle
     func di() {
+        print("**** -- Dependency Inversion Principle Started -- ****")
         let consoleLogger = ConsoleLoggerx()
         let appWithConsoleLogger = Applicationx(logger: consoleLogger)
         appWithConsoleLogger.performTask()
