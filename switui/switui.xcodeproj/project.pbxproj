@@ -49,6 +49,13 @@
 		A4A5BCB82D36943000EC23D6 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A5BCB72D36943000EC23D6 /* Composite.swift */; };
 		A4A5BCBA2D36B79F00EC23D6 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A5BCB92D36B79F00EC23D6 /* Decorator.swift */; };
 		A4A5BCBC2D36BEA200EC23D6 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A5BCBB2D36BEA200EC23D6 /* Facade.swift */; };
+		A4B3CAF82D3E2EBD008CC4E0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3CAF72D3E2EBD008CC4E0 /* Model.swift */; };
+		A4B3CAFA2D3E2EFA008CC4E0 /* Apimvp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3CAF92D3E2EFA008CC4E0 /* Apimvp.swift */; };
+		A4B3CAFC2D3E2F8B008CC4E0 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3CAFB2D3E2F8B008CC4E0 /* Presenter.swift */; };
+		A4B3CAFE2D3E2FF0008CC4E0 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3CAFD2D3E2FF0008CC4E0 /* View.swift */; };
+		A4B3CB002D3E3033008CC4E0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3CAFF2D3E3033008CC4E0 /* DetailView.swift */; };
+		A4B3CB022D3E30EE008CC4E0 /* MVPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3CB012D3E30EE008CC4E0 /* MVPView.swift */; };
+		A4B3CB042D3E3792008CC4E0 /* MVPControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B3CB032D3E3792008CC4E0 /* MVPControllerWrapper.swift */; };
 		A4C526EE2D37DDFC0054D478 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C526ED2D37DDFC0054D478 /* Mediator.swift */; };
 		A4C526F02D3800C10054D478 /* MementoPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C526EF2D3800C10054D478 /* MementoPattern.swift */; };
 		A4C526F22D3811890054D478 /* ObserverPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C526F12D3811890054D478 /* ObserverPattern.swift */; };
@@ -128,6 +135,13 @@
 		A4A5BCB72D36943000EC23D6 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		A4A5BCB92D36B79F00EC23D6 /* Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
 		A4A5BCBB2D36BEA200EC23D6 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		A4B3CAF72D3E2EBD008CC4E0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A4B3CAF92D3E2EFA008CC4E0 /* Apimvp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apimvp.swift; sourceTree = "<group>"; };
+		A4B3CAFB2D3E2F8B008CC4E0 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		A4B3CAFD2D3E2FF0008CC4E0 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		A4B3CAFF2D3E3033008CC4E0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A4B3CB012D3E30EE008CC4E0 /* MVPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPView.swift; sourceTree = "<group>"; };
+		A4B3CB032D3E3792008CC4E0 /* MVPControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVPControllerWrapper.swift; sourceTree = "<group>"; };
 		A4C526ED2D37DDFC0054D478 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
 		A4C526EF2D3800C10054D478 /* MementoPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPattern.swift; sourceTree = "<group>"; };
 		A4C526F12D3811890054D478 /* ObserverPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern.swift; sourceTree = "<group>"; };
@@ -313,6 +327,7 @@
 		A45A0DA82D3A4D70002B9144 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				A4B3CAF62D3E2E8D008CC4E0 /* MVP */,
 				A440C35F2D3D3ED200D161A2 /* ViperUIKit */,
 				A45A0DAB2D3A4E02002B9144 /* MVVM */,
 			);
@@ -366,6 +381,20 @@
 				A475F8002D1DC49900A7739F /* StringExt.swift */,
 			);
 			path = SwiftData;
+			sourceTree = "<group>";
+		};
+		A4B3CAF62D3E2E8D008CC4E0 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				A4B3CAF72D3E2EBD008CC4E0 /* Model.swift */,
+				A4B3CAF92D3E2EFA008CC4E0 /* Apimvp.swift */,
+				A4B3CAFB2D3E2F8B008CC4E0 /* Presenter.swift */,
+				A4B3CAFD2D3E2FF0008CC4E0 /* View.swift */,
+				A4B3CAFF2D3E3033008CC4E0 /* DetailView.swift */,
+				A4B3CB032D3E3792008CC4E0 /* MVPControllerWrapper.swift */,
+				A4B3CB012D3E30EE008CC4E0 /* MVPView.swift */,
+			);
+			path = MVP;
 			sourceTree = "<group>";
 		};
 		A4CDD9E92D3602AC0092B474 /* Structural */ = {
@@ -557,6 +586,7 @@
 				A440C3612D3D3F0B00D161A2 /* BookEntity.swift in Sources */,
 				A440C36B2D3D43B500D161A2 /* ListViewController.swift in Sources */,
 				A42E71332D37837500C88AD1 /* IteratorPattern.swift in Sources */,
+				A4B3CB002D3E3033008CC4E0 /* DetailView.swift in Sources */,
 				A4EA56DB2D341C2F001F4FBE /* LiskovSubstitution.swift in Sources */,
 				A440C36F2D3D468F00D161A2 /* DetailViewController.swift in Sources */,
 				A475F8032D1DC4DF00A7739F /* BookListView.swift in Sources */,
@@ -564,7 +594,9 @@
 				A4FD92292D358E3800B54E33 /* Singleton.swift in Sources */,
 				A4788F252D33CB750026F553 /* AbstractFactory.swift in Sources */,
 				A41B019C2D171CD60062C097 /* ContentView.swift in Sources */,
+				A4B3CB022D3E30EE008CC4E0 /* MVPView.swift in Sources */,
 				A4CDD9EB2D3602E60092B474 /* Adapter.swift in Sources */,
+				A4B3CAF82D3E2EBD008CC4E0 /* Model.swift in Sources */,
 				A42B42192D32D565006C7A60 /* ViewOnlyProtocol.swift in Sources */,
 				A440C3732D3D675A00D161A2 /* ViperView.swift in Sources */,
 				A4E4BD3E2D327CAC00F84955 /* BankAccount.swift in Sources */,
@@ -574,11 +606,15 @@
 				A411B4D62D352537008158BE /* InterfaceSegrigration.swift in Sources */,
 				A42E71312D3780B700C88AD1 /* InterpreterPattern.swift in Sources */,
 				A42E712D2D375AF800C88AD1 /* ChainResponsibility.swift in Sources */,
+				A4B3CAFA2D3E2EFA008CC4E0 /* Apimvp.swift in Sources */,
+				A4B3CAFC2D3E2F8B008CC4E0 /* Presenter.swift in Sources */,
 				A4EA56D72D340B15001F4FBE /* SingleReponsibility.swift in Sources */,
 				A475F8052D1DC52700A7739F /* EditBookView.swift in Sources */,
 				A42B421C2D32DC3E006C7A60 /* Shape.swift in Sources */,
 				A42B421F2D32E297006C7A60 /* Associated.swift in Sources */,
 				A4EA56DD2D342609001F4FBE /* DependencyInversion.swift in Sources */,
+				A4B3CAFE2D3E2FF0008CC4E0 /* View.swift in Sources */,
+				A4B3CB042D3E3792008CC4E0 /* MVPControllerWrapper.swift in Sources */,
 				A4C526EE2D37DDFC0054D478 /* Mediator.swift in Sources */,
 				A41B01C62D171E9C0062C097 /* Post.swift in Sources */,
 				A4A5BCB82D36943000EC23D6 /* Composite.swift in Sources */,
