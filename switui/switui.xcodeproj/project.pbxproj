@@ -28,6 +28,16 @@
 		A42E712F2D3778DA00C88AD1 /* CommandPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E712E2D3778DA00C88AD1 /* CommandPattern.swift */; };
 		A42E71312D3780B700C88AD1 /* InterpreterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E71302D3780B700C88AD1 /* InterpreterPattern.swift */; };
 		A42E71332D37837500C88AD1 /* IteratorPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42E71322D37837500C88AD1 /* IteratorPattern.swift */; };
+		A440C3612D3D3F0B00D161A2 /* BookEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440C3602D3D3F0B00D161A2 /* BookEntity.swift */; };
+		A440C3632D3D3F7100D161A2 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440C3622D3D3F7100D161A2 /* Protocols.swift */; };
+		A440C3652D3D416D00D161A2 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440C3642D3D416D00D161A2 /* Router.swift */; };
+		A440C3672D3D421000D161A2 /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440C3662D3D421000D161A2 /* ListInteractor.swift */; };
+		A440C3692D3D433700D161A2 /* ListPresnter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440C3682D3D433700D161A2 /* ListPresnter.swift */; };
+		A440C36B2D3D43B500D161A2 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440C36A2D3D43B500D161A2 /* ListViewController.swift */; };
+		A440C36D2D3D465B00D161A2 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440C36C2D3D465B00D161A2 /* DetailRouter.swift */; };
+		A440C36F2D3D468F00D161A2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440C36E2D3D468F00D161A2 /* DetailViewController.swift */; };
+		A440C3712D3D66B100D161A2 /* ViperControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440C3702D3D66B100D161A2 /* ViperControllerWrapper.swift */; };
+		A440C3732D3D675A00D161A2 /* ViperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A440C3722D3D675A00D161A2 /* ViperView.swift */; };
 		A475F8012D1DC49900A7739F /* StringExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8002D1DC49900A7739F /* StringExt.swift */; };
 		A475F8032D1DC4DF00A7739F /* BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8022D1DC4DF00A7739F /* BookListView.swift */; };
 		A475F8052D1DC52700A7739F /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475F8042D1DC52700A7739F /* EditBookView.swift */; };
@@ -97,6 +107,16 @@
 		A42E712E2D3778DA00C88AD1 /* CommandPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandPattern.swift; sourceTree = "<group>"; };
 		A42E71302D3780B700C88AD1 /* InterpreterPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpreterPattern.swift; sourceTree = "<group>"; };
 		A42E71322D37837500C88AD1 /* IteratorPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteratorPattern.swift; sourceTree = "<group>"; };
+		A440C3602D3D3F0B00D161A2 /* BookEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEntity.swift; sourceTree = "<group>"; };
+		A440C3622D3D3F7100D161A2 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		A440C3642D3D416D00D161A2 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		A440C3662D3D421000D161A2 /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		A440C3682D3D433700D161A2 /* ListPresnter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresnter.swift; sourceTree = "<group>"; };
+		A440C36A2D3D43B500D161A2 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		A440C36C2D3D465B00D161A2 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		A440C36E2D3D468F00D161A2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A440C3702D3D66B100D161A2 /* ViperControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperControllerWrapper.swift; sourceTree = "<group>"; };
+		A440C3722D3D675A00D161A2 /* ViperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperView.swift; sourceTree = "<group>"; };
 		A475F8002D1DC49900A7739F /* StringExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExt.swift; sourceTree = "<group>"; };
 		A475F8022D1DC4DF00A7739F /* BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListView.swift; sourceTree = "<group>"; };
 		A475F8042D1DC52700A7739F /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
@@ -172,6 +192,7 @@
 		A41B01982D171CD60062C097 /* switui */ = {
 			isa = PBXGroup;
 			children = (
+				A45A0DA82D3A4D70002B9144 /* Architecture */,
 				A4EA56D52D340AD9001F4FBE /* SOLID */,
 				A4788F202D33C6CE0026F553 /* DesignPatterns */,
 				A42B42162D32D45C006C7A60 /* protocol */,
@@ -270,6 +291,39 @@
 				A4C526F12D3811890054D478 /* ObserverPattern.swift */,
 			);
 			path = Behavioral;
+			sourceTree = "<group>";
+		};
+		A440C35F2D3D3ED200D161A2 /* ViperUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A440C3602D3D3F0B00D161A2 /* BookEntity.swift */,
+				A440C3622D3D3F7100D161A2 /* Protocols.swift */,
+				A440C3642D3D416D00D161A2 /* Router.swift */,
+				A440C3662D3D421000D161A2 /* ListInteractor.swift */,
+				A440C3682D3D433700D161A2 /* ListPresnter.swift */,
+				A440C36A2D3D43B500D161A2 /* ListViewController.swift */,
+				A440C36C2D3D465B00D161A2 /* DetailRouter.swift */,
+				A440C36E2D3D468F00D161A2 /* DetailViewController.swift */,
+				A440C3702D3D66B100D161A2 /* ViperControllerWrapper.swift */,
+				A440C3722D3D675A00D161A2 /* ViperView.swift */,
+			);
+			path = ViperUIKit;
+			sourceTree = "<group>";
+		};
+		A45A0DA82D3A4D70002B9144 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				A440C35F2D3D3ED200D161A2 /* ViperUIKit */,
+				A45A0DAB2D3A4E02002B9144 /* MVVM */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		A45A0DAB2D3A4E02002B9144 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 		A4788F202D33C6CE0026F553 /* DesignPatterns */ = {
@@ -486,19 +540,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A440C3692D3D433700D161A2 /* ListPresnter.swift in Sources */,
 				A475F8012D1DC49900A7739F /* StringExt.swift in Sources */,
 				A4EA56D92D341204001F4FBE /* OpenClosed.swift in Sources */,
 				A4A468422D1CFA5900AFC0F9 /* Book.swift in Sources */,
 				A4C526F22D3811890054D478 /* ObserverPattern.swift in Sources */,
 				A48320802D3359E00046F268 /* ProtocolType.swift in Sources */,
 				A42E71282D374A4400C88AD1 /* FlyWeight.swift in Sources */,
+				A440C3632D3D3F7100D161A2 /* Protocols.swift in Sources */,
 				A41B01C42D171E510062C097 /* PostViewModel.swift in Sources */,
+				A440C3672D3D421000D161A2 /* ListInteractor.swift in Sources */,
 				A41B01C82D171EC50062C097 /* APIService.swift in Sources */,
 				A4FD92252D357B8500B54E33 /* Prototype.swift in Sources */,
 				A4FD92272D357F3800B54E33 /* Builder.swift in Sources */,
 				A4CDD9ED2D36691E0092B474 /* BridgePattern.swift in Sources */,
+				A440C3612D3D3F0B00D161A2 /* BookEntity.swift in Sources */,
+				A440C36B2D3D43B500D161A2 /* ListViewController.swift in Sources */,
 				A42E71332D37837500C88AD1 /* IteratorPattern.swift in Sources */,
 				A4EA56DB2D341C2F001F4FBE /* LiskovSubstitution.swift in Sources */,
+				A440C36F2D3D468F00D161A2 /* DetailViewController.swift in Sources */,
 				A475F8032D1DC4DF00A7739F /* BookListView.swift in Sources */,
 				A42E712A2D37532500C88AD1 /* Proxy.swift in Sources */,
 				A4FD92292D358E3800B54E33 /* Singleton.swift in Sources */,
@@ -506,8 +566,10 @@
 				A41B019C2D171CD60062C097 /* ContentView.swift in Sources */,
 				A4CDD9EB2D3602E60092B474 /* Adapter.swift in Sources */,
 				A42B42192D32D565006C7A60 /* ViewOnlyProtocol.swift in Sources */,
+				A440C3732D3D675A00D161A2 /* ViperView.swift in Sources */,
 				A4E4BD3E2D327CAC00F84955 /* BankAccount.swift in Sources */,
 				A4A5BCBA2D36B79F00EC23D6 /* Decorator.swift in Sources */,
+				A440C36D2D3D465B00D161A2 /* DetailRouter.swift in Sources */,
 				A41B019A2D171CD60062C097 /* swituiApp.swift in Sources */,
 				A411B4D62D352537008158BE /* InterfaceSegrigration.swift in Sources */,
 				A42E71312D3780B700C88AD1 /* InterpreterPattern.swift in Sources */,
@@ -522,7 +584,9 @@
 				A4A5BCB82D36943000EC23D6 /* Composite.swift in Sources */,
 				A4A5BCBC2D36BEA200EC23D6 /* Facade.swift in Sources */,
 				A4C526F02D3800C10054D478 /* MementoPattern.swift in Sources */,
+				A440C3652D3D416D00D161A2 /* Router.swift in Sources */,
 				A4788F232D33C73E0026F553 /* Factory.swift in Sources */,
+				A440C3712D3D66B100D161A2 /* ViperControllerWrapper.swift in Sources */,
 				A42E712F2D3778DA00C88AD1 /* CommandPattern.swift in Sources */,
 				A427DB9F2D2CEC8000DF8EB0 /* OperatorsUse.swift in Sources */,
 				A4E4BD3B2D32789600F84955 /* GridView.swift in Sources */,
