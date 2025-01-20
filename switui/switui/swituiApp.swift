@@ -335,7 +335,8 @@ struct swituiApp: App {
 //            BookListView()
 //                .modelContainer(for:[Book.self])
 //            GridView()
-            ViperView()
+//            ViperView()
+            MVPView()
             
             let _ = { // When to use plain non ui code we need to handle it in this way
                 print("BAlance:")
