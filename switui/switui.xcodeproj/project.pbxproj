@@ -73,6 +73,15 @@
 		A4EC22FD2D3F9B2900454364 /* MVVMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC22FC2D3F9B2900454364 /* MVVMViewModel.swift */; };
 		A4EC22FF2D3FA25500454364 /* ViewMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC22FE2D3FA25500454364 /* ViewMVVM.swift */; };
 		A4EC23012D3FAC0500454364 /* DetailViewMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC23002D3FAC0500454364 /* DetailViewMVVM.swift */; };
+		A4EC23052D3FB93E00454364 /* ViewModelC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC23042D3FB93E00454364 /* ViewModelC.swift */; };
+		A4EC23072D3FB98600454364 /* ControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC23062D3FB98600454364 /* ControllerC.swift */; };
+		A4EC230A2D3FBA2A00454364 /* ModelC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC23092D3FBA2A00454364 /* ModelC.swift */; };
+		A4EC230C2D3FBF6A00454364 /* USeCaseC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC230B2D3FBF6A00454364 /* USeCaseC.swift */; };
+		A4EC230F2D3FBFD400454364 /* DataC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC230E2D3FBFD400454364 /* DataC.swift */; };
+		A4EC23112D3FC00900454364 /* NetworkServiceC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC23102D3FC00900454364 /* NetworkServiceC.swift */; };
+		A4EC23132D3FC62000454364 /* DetailsControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC23122D3FC62000454364 /* DetailsControllerC.swift */; };
+		A4EC23152D3FCCBC00454364 /* CleanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC23142D3FCCBC00454364 /* CleanView.swift */; };
+		A4EC23172D3FCCF300454364 /* CleanControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EC23162D3FCCF300454364 /* CleanControllerWrapper.swift */; };
 		A4FD92252D357B8500B54E33 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD92242D357B8500B54E33 /* Prototype.swift */; };
 		A4FD92272D357F3800B54E33 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD92262D357F3800B54E33 /* Builder.swift */; };
 		A4FD92292D358E3800B54E33 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FD92282D358E3800B54E33 /* Singleton.swift */; };
@@ -165,6 +174,16 @@
 		A4EC22FC2D3F9B2900454364 /* MVVMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewModel.swift; sourceTree = "<group>"; };
 		A4EC22FE2D3FA25500454364 /* ViewMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMVVM.swift; sourceTree = "<group>"; };
 		A4EC23002D3FAC0500454364 /* DetailViewMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewMVVM.swift; sourceTree = "<group>"; };
+		A4EC23042D3FB93E00454364 /* ViewModelC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelC.swift; sourceTree = "<group>"; };
+		A4EC23062D3FB98600454364 /* ControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerC.swift; sourceTree = "<group>"; };
+		A4EC23092D3FBA2A00454364 /* ModelC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelC.swift; sourceTree = "<group>"; };
+		A4EC230B2D3FBF6A00454364 /* USeCaseC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USeCaseC.swift; sourceTree = "<group>"; };
+		A4EC230E2D3FBFD400454364 /* DataC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataC.swift; sourceTree = "<group>"; };
+		A4EC23102D3FC00900454364 /* NetworkServiceC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceC.swift; sourceTree = "<group>"; };
+		A4EC23122D3FC62000454364 /* DetailsControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsControllerC.swift; sourceTree = "<group>"; };
+		A4EC23142D3FCCBC00454364 /* CleanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanView.swift; sourceTree = "<group>"; };
+		A4EC23162D3FCCF300454364 /* CleanControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanControllerWrapper.swift; sourceTree = "<group>"; };
+		A4EC23182D3FE80400454364 /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 		A4FD92242D357B8500B54E33 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		A4FD92262D357F3800B54E33 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		A4FD92282D358E3800B54E33 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
@@ -339,6 +358,7 @@
 		A45A0DA82D3A4D70002B9144 /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				A4EC23022D3FB8CE00454364 /* CleanArchitecture */,
 				A4B3CAF62D3E2E8D008CC4E0 /* MVP */,
 				A440C35F2D3D3ED200D161A2 /* ViperUIKit */,
 				A45A0DAB2D3A4E02002B9144 /* MVVM */,
@@ -455,6 +475,47 @@
 				A411B4D52D352537008158BE /* InterfaceSegrigration.swift */,
 			);
 			path = SOLID;
+			sourceTree = "<group>";
+		};
+		A4EC23022D3FB8CE00454364 /* CleanArchitecture */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC230D2D3FBFAC00454364 /* Repository */,
+				A4EC23082D3FB9E200454364 /* Domain */,
+				A4EC23032D3FB8F100454364 /* PresentationLayer  */,
+				A4EC23142D3FCCBC00454364 /* CleanView.swift */,
+				A4EC23162D3FCCF300454364 /* CleanControllerWrapper.swift */,
+				A4EC23182D3FE80400454364 /* ReadMe.md */,
+			);
+			path = CleanArchitecture;
+			sourceTree = "<group>";
+		};
+		A4EC23032D3FB8F100454364 /* PresentationLayer  */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC23042D3FB93E00454364 /* ViewModelC.swift */,
+				A4EC23062D3FB98600454364 /* ControllerC.swift */,
+				A4EC23122D3FC62000454364 /* DetailsControllerC.swift */,
+			);
+			path = "PresentationLayer ";
+			sourceTree = "<group>";
+		};
+		A4EC23082D3FB9E200454364 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC23092D3FBA2A00454364 /* ModelC.swift */,
+				A4EC230B2D3FBF6A00454364 /* USeCaseC.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A4EC230D2D3FBFAC00454364 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				A4EC230E2D3FBFD400454364 /* DataC.swift */,
+				A4EC23102D3FC00900454364 /* NetworkServiceC.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -596,8 +657,12 @@
 				A42E71282D374A4400C88AD1 /* FlyWeight.swift in Sources */,
 				A440C3632D3D3F7100D161A2 /* Protocols.swift in Sources */,
 				A41B01C42D171E510062C097 /* PostViewModel.swift in Sources */,
+				A4EC230C2D3FBF6A00454364 /* USeCaseC.swift in Sources */,
 				A440C3672D3D421000D161A2 /* ListInteractor.swift in Sources */,
 				A41B01C82D171EC50062C097 /* APIService.swift in Sources */,
+				A4EC230F2D3FBFD400454364 /* DataC.swift in Sources */,
+				A4EC23072D3FB98600454364 /* ControllerC.swift in Sources */,
+				A4EC230A2D3FBA2A00454364 /* ModelC.swift in Sources */,
 				A4FD92252D357B8500B54E33 /* Prototype.swift in Sources */,
 				A4FD92272D357F3800B54E33 /* Builder.swift in Sources */,
 				A4CDD9ED2D36691E0092B474 /* BridgePattern.swift in Sources */,
@@ -606,6 +671,7 @@
 				A42E71332D37837500C88AD1 /* IteratorPattern.swift in Sources */,
 				A4B3CB002D3E3033008CC4E0 /* DetailView.swift in Sources */,
 				A4EA56DB2D341C2F001F4FBE /* LiskovSubstitution.swift in Sources */,
+				A4EC23172D3FCCF300454364 /* CleanControllerWrapper.swift in Sources */,
 				A440C36F2D3D468F00D161A2 /* DetailViewController.swift in Sources */,
 				A475F8032D1DC4DF00A7739F /* BookListView.swift in Sources */,
 				A42E712A2D37532500C88AD1 /* Proxy.swift in Sources */,
@@ -615,6 +681,7 @@
 				A4B3CB022D3E30EE008CC4E0 /* MVPView.swift in Sources */,
 				A4CDD9EB2D3602E60092B474 /* Adapter.swift in Sources */,
 				A4B3CAF82D3E2EBD008CC4E0 /* Model.swift in Sources */,
+				A4EC23152D3FCCBC00454364 /* CleanView.swift in Sources */,
 				A4EC22FB2D3F943D00454364 /* NetWorkServiceMVVM.swift in Sources */,
 				A42B42192D32D565006C7A60 /* ViewOnlyProtocol.swift in Sources */,
 				A440C3732D3D675A00D161A2 /* ViperView.swift in Sources */,
@@ -629,6 +696,7 @@
 				A4B3CAFA2D3E2EFA008CC4E0 /* Apimvp.swift in Sources */,
 				A4B3CAFC2D3E2F8B008CC4E0 /* Presenter.swift in Sources */,
 				A4EA56D72D340B15001F4FBE /* SingleReponsibility.swift in Sources */,
+				A4EC23052D3FB93E00454364 /* ViewModelC.swift in Sources */,
 				A4EC22FF2D3FA25500454364 /* ViewMVVM.swift in Sources */,
 				A475F8052D1DC52700A7739F /* EditBookView.swift in Sources */,
 				A42B421C2D32DC3E006C7A60 /* Shape.swift in Sources */,
@@ -646,10 +714,12 @@
 				A440C3652D3D416D00D161A2 /* Router.swift in Sources */,
 				A4788F232D33C73E0026F553 /* Factory.swift in Sources */,
 				A440C3712D3D66B100D161A2 /* ViperControllerWrapper.swift in Sources */,
+				A4EC23112D3FC00900454364 /* NetworkServiceC.swift in Sources */,
 				A42E712F2D3778DA00C88AD1 /* CommandPattern.swift in Sources */,
 				A4EC22FD2D3F9B2900454364 /* MVVMViewModel.swift in Sources */,
 				A427DB9F2D2CEC8000DF8EB0 /* OperatorsUse.swift in Sources */,
 				A4E4BD3B2D32789600F84955 /* GridView.swift in Sources */,
+				A4EC23132D3FC62000454364 /* DetailsControllerC.swift in Sources */,
 				A475F8072D1DC56000A7739F /* NewBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

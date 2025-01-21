@@ -337,7 +337,8 @@ struct swituiApp: App {
 //            GridView()
 //            ViperView()
 //            MVPView()
-            MVVMView()
+//            MVVMView()
+            CleanView()
             
             let _ = { // When to use plain non ui code we need to handle it in this way
                 print("BAlance:")
