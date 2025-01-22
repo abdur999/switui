@@ -76,9 +76,8 @@ struct swituiApp: App {
         
         lsp()
         
-        
-    
-        
+        CallClosure().callFunctions()
+            
     }
     //MARK: Factory creational Pattern
     func Factory() {
@@ -339,6 +338,8 @@ struct swituiApp: App {
 //            MVPView()
 //            MVVMView()
             CleanView()
+            
+           
             
             let _ = { // When to use plain non ui code we need to handle it in this way
                 print("BAlance:")
