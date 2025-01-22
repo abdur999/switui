@@ -123,6 +123,7 @@
 		A41B01C72D171EC50062C097 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		A4241D7C2D407B30001261E5 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
 		A4241D7F2D40A66B001261E5 /* tutorial.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = tutorial.rtf; sourceTree = "<group>"; };
+		A4241D822D40BE2C001261E5 /* UnitTestDoc.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = UnitTestDoc.md; sourceTree = "<group>"; };
 		A427DB9E2D2CEC8000DF8EB0 /* OperatorsUse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorsUse.swift; sourceTree = "<group>"; };
 		A42B42182D32D565006C7A60 /* ViewOnlyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOnlyProtocol.swift; sourceTree = "<group>"; };
 		A42B421B2D32DC3E006C7A60 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
@@ -241,6 +242,7 @@
 		A41B01982D171CD60062C097 /* switui */ = {
 			isa = PBXGroup;
 			children = (
+				A4241D812D40BA2E001261E5 /* UnitTest */,
 				A4241D7E2D40A630001261E5 /* SwiftLint */,
 				A4241D7B2D40795C001261E5 /* Closure */,
 				A45A0DA82D3A4D70002B9144 /* Architecture */,
@@ -301,6 +303,14 @@
 				A4241D7F2D40A66B001261E5 /* tutorial.rtf */,
 			);
 			path = SwiftLint;
+			sourceTree = "<group>";
+		};
+		A4241D812D40BA2E001261E5 /* UnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				A4241D822D40BE2C001261E5 /* UnitTestDoc.md */,
+			);
+			path = UnitTest;
 			sourceTree = "<group>";
 		};
 		A427DB9D2D2CEC5B00DF8EB0 /* combine */ = {
